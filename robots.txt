@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: rodrigoduda.github.io/sitemap.xml
