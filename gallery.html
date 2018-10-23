@@ -173,7 +173,7 @@
 	</div>
 			
 			<div class="album"><br><br>			
-	<div id="gallery" style="margin:0px auto;display:none;">
+	<div id="gallery2" style="margin:0px auto;display:none;">
 	<img src="https://res.cloudinary.com/dididoduda/image/upload/h_65,q_auto,f_auto/casamento/duda-rodrigo-001.jpg"
 		data-image="https://res.cloudinary.com/dididoduda/image/upload/q_auto,f_auto/casamento/duda-rodrigo-001.jpg" data-description="Fotos casamento">
 			
@@ -3002,6 +3002,18 @@
 		<script type="text/javascript">	
 			jQuery(document).ready(function(){	
 				jQuery("#gallery").unitegallery({
+				gallery_theme: "compact",
+				gallery_height: 675,
+				gallery_images_preload_type:"minimal",
+				thumb_border_width:2,
+				thumb_over_border_width:2,
+				thumb_selected_border_width:4,
+				});	
+			});			
+		</script>
+		<script type="text/javascript">	
+			jQuery(document).ready(function(){	
+				jQuery("#gallery2").unitegallery({
 				gallery_theme: "compact",
 				gallery_height: 675,
 				gallery_images_preload_type:"minimal",
